@@ -1,0 +1,16 @@
+Challenge Question: Write a program that prints the numbers from 1 to 100. 
+But for multiples of three print “Yumi” instead of the number and for the multiples of five print “Work”. 
+For numbers which are multiples of both three and five print “YumiWork”.
+
+
+
+print("Print numbers 1 to 101:")
+for i in range (1,101):
+    if (i % 3 == 0 ) and ( i % 5 ==0):
+        print("Yumiwork")
+    elif (i % 3 ==0): 
+        print ("Yumi")
+    elif (i % 5 == 0):
+        print ("Work")
+    else:
+        print (i)
